@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../image/background.jpg) no-repeat center top;
+    background-image: linear-gradient(
+        rgb(0,0,0,0.7),
+        rgb(0,0,0,0.7)),
+        url(../images/fondo_login.jpg);
     background-size: 100% 100%;
     font-family: sans-serif;
     height: 100vh;
@@ -59,7 +62,7 @@ body {
     border: none;
     outline: none;
     height: 40px;
-    background: #c5a56e;
+    background: #CE967B;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -67,8 +70,8 @@ body {
   
   .login-box input[type="submit"]:hover {
     cursor: pointer;
-    background: #ffc107;
-    color: #000;
+    background: #ebad8d;
+    color: #fff;
   }
   
   .login-box a {
